@@ -7,7 +7,7 @@ const MenuCard = ({ menuData }) => {
             {
                 menuData.map((curElem) => {
 
-                   const {id, name, category, image, description} = curElem; // destructuring
+                   const {id, name,  image, description} = curElem; // destructuring
 
                     return (
                         <>
